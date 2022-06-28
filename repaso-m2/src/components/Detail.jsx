@@ -19,7 +19,7 @@ componentWillUnmount(){
     render(){
         return (
             <div>
-               <img src={this.props.charDetail.image} alt={this.props.charDetail.name} />
+                <img src={this.props.charDetail.image} alt={this.props.charDetail.name} />
                 <p>{this.props.charDetail.name}</p>
                 <p>Estado: {this.props.charDetail.status}</p>
                 <p>Especie: {this.props.charDetail.species}</p>                

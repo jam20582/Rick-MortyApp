@@ -29,7 +29,7 @@ function handleSubmit(e){
                 (
                     <div key={char.id}>
                         <img src={char.image} alt={char.name} />
-                      <Link to={"/detail/"+ char.id }>  <p>{char.name}</p></Link>
+                        <Link to={"/detail/"+ char.id }>  <p>{char.name}</p></Link>
                     </div>
                 ))}
         </div>
